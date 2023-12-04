@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        
+    <!-- Devicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="p-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center">
+                    <i class="devicon-react-original colored"></i> React.js
+                </h1>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#areaspraticas">Áreas Prática</a></li>
+                    <li><a href="#sobrereact">Sobre React.js</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="grande bg-programacao parallax" id="home" data-divisor="2">
+            <div class="row">
+                <div class="col-md-5 bg-azul-trans h-100 pt-5">
+                    <h1 style="margin-top: 200px;">
+                        <i class="devicon-react-original colored"></i> React.js
+                    </h1>
+                    <p class="text-2em">React é uma biblioteca JavaScript de código aberto usada para construir interfaces de usuário interativas ou componentes de página única, desenvolvida pelo Facebook</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="grande" id="areaspraticas">
+            <div class="row">
+                <div class="col-md-5 bg-cinza h-100">
+                    <h1 class="text-6em mt-5">Áreas <br> Práticas</h1>
+                </div>
+
+                <div class="col-md-7 bg-branco h-100">
+                    <div class="row pt-5">
+                        <div class="col-6">
+                            <h2 class="topico"><i class="devicon-react-original"></i> Desenvolvimento de Aplicações Web</h2>
+                            <p>React é amplamente utilizado para construir interfaces de usuário interativas em aplicações web. Ele é particularmente eficaz em projetos que requerem atualizações de página eficientes e uma experiência de usuário responsiva.</p>
+
+                            <h2 class="topico"><i class="devicon-react-original"></i> Aplicações de Página Única (SPAs)</h2>
+                            <p>React é uma escolha popular para o desenvolvimento de SPAs, onde a maior parte da interação ocorre em uma única página, proporcionando uma experiência de usuário mais fluida e rápida.</p>
+
+                            <h2 class="topico"><i class="devicon-react-original"></i> Aplicações Móveis com React Native</h2>
+                            <p>React Native é uma extensão do React que permite o desenvolvimento de aplicativos móveis nativos para iOS e Android. Compartilhando grande parte do código entre plataformas, o React Native acelera o processo de desenvolvimento.</p>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="topico"><i class="devicon-react-original"></i> Ferramentas de Gerenciamento de Estado</h2>
+                            <p>React pode ser integrado a bibliotecas como Redux para gerenciar o estado de uma aplicação de forma eficiente, facilitando o compartilhamento e a manipulação de dados em toda a aplicação.</p>
+
+                            <h2 class="topico"><i class="devicon-react-original"></i> Dashboards e Painéis Administrativos</h2>
+                            <p>A criação de dashboards interativos e painéis administrativos é outra área onde o React brilha. Sua arquitetura modular facilita a construção de interfaces complexas e reutilizáveis.</p>
+
+                            <h2 class="topico"><i class="devicon-react-original"></i> Jogos Web</h2>
+                            <p>Para jogos web interativos, React pode ser utilizado para criar componentes de interface de usuário dinâmicos e reativos, enquanto as funcionalidades de jogo são manipuladas por outras bibliotecas ou frameworks especializados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="grande bg-azul p-5" id="sobrereact">
+            <h1 class="text-center">Sobre React.js</h1>
+            <p class="text-center text-2em">React, uma biblioteca JavaScript de código aberto desenvolvida pelo Facebook, é uma peça central no mundo dinâmico do desenvolvimento web moderno. Sua abordagem única baseada em componentes oferece uma maneira elegante e eficiente de construir interfaces de usuário interativas. Ao dividir a interface em componentes reutilizáveis, o React facilita a manutenção e escalabilidade de projetos, permitindo aos desenvolvedores criar experiências de usuário ricas e responsivas. Além disso, a virtualização do DOM pelo React resulta em atualizações mais eficientes, minimizando as alterações na interface e melhorando o desempenho geral das aplicações web.</p>
+            <p class="text-center text-2em">O React não se limita apenas ao desenvolvimento web tradicional; sua versatilidade se estende ao universo mobile com o React Native. Essa extensão permite aos desenvolvedores criar aplicativos móveis nativos para iOS e Android, compartilhando grande parte do código entre as plataformas. Essa capacidade de reutilização e a eficiência na renderização de componentes fazem do React uma escolha preferida não apenas para interfaces de usuário visualmente atraentes, mas também para o desenvolvimento de aplicações escaláveis, desde aplicações empresariais complexas até jogos web interativos e dinâmicos.</p>
+        </div>
+
+
+
+        <div class="grande bg-funcionarios parallax" data-divisor="14">
+
+        </div>
+
+    </main>
+
+
+
+    <!-- Bootstrap/jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript Próprio -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

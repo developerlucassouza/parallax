@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    /* font-size: 2em; */
+    overflow-x: hidden;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+header li {
+    display: inline-block;
+    margin: auto 20px;
+    text-align: center;
+}
+
+header li a {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+h1 {
+    margin: auto 50px;
+}
+
+h2.topico {
+    margin: 30px 50px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 50px 50px;
+}
+
+div.grande {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+#areaspraticas h1 {
+    font-size: 3em;
+    margin: 70px !important;
+}
+
+
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.text-2em {
+    font-size: 2em !important;
+}
+
+.text-3em {
+    font-size: 3em !important;
+}
+.text-4em {
+    font-size: 4em !important;
+}
+.text-5em {
+    font-size: 5em !important;
+}
+.text-6em {
+    font-size: 6em !important;
+}
+
+.bg-azul {
+    background-color: #00416E;
+    color: white;
+}
+
+.bg-azul-trans {
+    background-color: rgba(0, 64, 110, 0.7);
+    color: white;
+}
+
+.bg-branco {
+    background-color: white;
+    color: #00416E;
+}
+
+.bg-cinza {
+    background-color: #CCCCCC;
+    color: #00416E;
+}
+
+.bg-programacao {
+    background-image: url(imgs/programacao.png);
+}
+
+.bg-funcionarios {
+    background-image: url(imgs/funcionarios.jpg);
+}
+
+.parallax{
+	width: 100vw;
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0;
+	position: relative;
+}
